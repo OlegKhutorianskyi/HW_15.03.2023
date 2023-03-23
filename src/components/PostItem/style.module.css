@@ -1,0 +1,37 @@
+.item{
+    width: 70%;
+    border: 2px solid #000;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    height: 220px;
+    position: relative;
+}
+
+.postText{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+.postText p{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 25px;
+
+}
+.item button{
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.item button:hover{
+    transition: .5s;
+    border: 1px solid #9B59B6;
+    color: #9B59B6;
+}
